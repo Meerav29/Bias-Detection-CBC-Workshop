@@ -1,0 +1,42 @@
+# Model files
+*.h5
+best_bias_model.h5
+
+# Large data files
+*.zip
+embeddings/glove.840B.300d.txt
+data/allsides_news_complete.csv
+
+# Generated visualizations
+training_history.png
+confusion_matrix.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
