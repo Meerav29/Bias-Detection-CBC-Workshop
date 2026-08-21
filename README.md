@@ -10,6 +10,7 @@ Build a sophisticated deep learning system that detects political bias (Left, Ce
 ```
 project2_bias_detection/
 ├── starter_code.py          # Main implementation with TODO sections
+├── starter_notebook.ipynb   # Blank student worksheet (mirrors starter_code.py)
 ├── requirements.txt          # Python dependencies
 ├── README.md                # This file
 ├── CLAUDE_CODE_GUIDE.md     # How to use Claude Code effectively
@@ -17,6 +18,13 @@ project2_bias_detection/
 ├── data/                    # Place AllSides dataset here
 └── embeddings/              # Place GloVe 300d embeddings here
 ```
+
+**Note on `starter_code.py` vs. `starter_notebook.ipynb`:** `starter_code.py`
+is the completed instructor/reference implementation — all TODOs are filled
+in with working code. `starter_notebook.ipynb` is intentionally left as a
+blank student worksheet with its own TODO cells, meant to be filled in by
+students working through the notebook rather than by copying the reference
+script. The two are not kept in sync on purpose.
 
 ## 🚀 Quick Start
 
