@@ -16,7 +16,9 @@ scikit-learn>=1.0.0
 matplotlib>=3.4.0
 seaborn>=0.11.0
 
-# For handling imbalanced datasets (optional but recommended)
+# Not currently imported by starter_code.py — compute_class_weights() uses
+# sklearn.utils.class_weight directly. Kept here only if you want to
+# experiment with resampling techniques (SMOTE, etc.) beyond class weighting.
 imbalanced-learn>=0.9.0
 
 # Optional: Progress bars for training
